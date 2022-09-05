@@ -19,7 +19,7 @@ int main() {
 
   std::cout << "ORIGINAL array:";
   for (int i {0}; i < size; i++){
-    std::cout << array[i] << std::endl;
+    std::cout << array[i] << "  ";
   }
 
   bubble_sort(array, size);
@@ -29,7 +29,7 @@ int main() {
 
   std::cout << "SORTED array:";
   for (int i {0}; i < size; i++){
-    std::cout << array[i] << std::endl;
+    std::cout << array[i] << "  ";
   }
   
   return 0;
